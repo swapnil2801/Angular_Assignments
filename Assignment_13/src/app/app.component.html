@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Customer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header class="bg-primary text-white">
+        <div class="row">
+          <div class="col-12 col-md-6 p-3">
+            <h1>Customer</h1>
+          </div>
+          <div class="col-12 col-md-6 p-3 text-right">
+            <img src="https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg" class="img-fluid">
+          </div>
+        </div>
+      </header>
+      <div class="container mt-5">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country" class="form-control">
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
